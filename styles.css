@@ -1,0 +1,33 @@
+body {
+    font-family: roboto, helvetica, sans-serif;
+}
+
+.section1 {
+    background-color: #1F2937
+}
+
+
+.hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links, .hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+    list-style-type: none;
+}
+
+.button {
+    font-size: 18px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+}
+
