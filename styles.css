@@ -2,8 +2,16 @@ body {
     font-family: roboto, helvetica, sans-serif;
 }
 
+li {
+    display: inline-flex;
+    margin: 16px;
+    padding: 
+   
+}
+
 .section1 {
-    background-color: #1F2937
+    background-color: #1F2937;
+    padding: 56px;
 }
 
 
@@ -23,7 +31,10 @@ body {
     font-size: 18px;
     color: #E5E7EB;
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
+
 
 .button {
     font-size: 18px;
@@ -31,3 +42,25 @@ body {
     background-color: #3882F6;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+
+.hero {
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 800px;
+}
+
+.image {
+    background-color: grey;
+    color: white;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
