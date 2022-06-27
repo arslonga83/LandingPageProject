@@ -9,6 +9,14 @@ li {
    
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a :hover {
+    color: rgb(rgb(130, 124, 124), green, blue)
+}
 .section1 {
     background-color: #1F2937;
     padding: 56px;
@@ -40,6 +48,10 @@ li {
     font-size: 18px;
     color: #F9FAF8;
     background-color: #3882F6;
+    width: 100px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 25px;
 }
 
 .header {
@@ -52,10 +64,25 @@ li {
 .hero {
     display: flex;
     flex-wrap: nowrap;
-    max-width: 800px;
+
 }
 
-.image {
+.hero-left {
+    max-width: 400px;
+}
+
+.hero-right {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    padding-right: 16px;
+    padding-top: 36px   
+}
+
+
+
+
+.image-placeholder {
     background-color: grey;
     color: white;
     width: 400px;
@@ -63,4 +90,5 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
