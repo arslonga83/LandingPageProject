@@ -5,8 +5,6 @@ body {
 li {
     display: inline-flex;
     margin: 16px;
-    padding: 
-   
 }
 
 a {
@@ -14,20 +12,15 @@ a {
     color: inherit;
 }
 
-a :hover {
-    color: rgb(rgb(130, 124, 124), green, blue)
-}
 .section1 {
     background-color: #1F2937;
     padding: 56px;
 }
 
-
 .hero-main {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
-
 }
 
 .logo {
@@ -43,7 +36,6 @@ a :hover {
     padding: 0;
 }
 
-
 .button {
     font-size: 18px;
     color: #F9FAF8;
@@ -57,14 +49,11 @@ a :hover {
 .header {
     display: flex;
     justify-content: space-between;
-   
-    
 }
 
 .hero {
     display: flex;
     flex-wrap: nowrap;
-
 }
 
 .hero-left {
@@ -79,9 +68,6 @@ a :hover {
     padding-top: 36px   
 }
 
-
-
-
 .image-placeholder {
     background-color: grey;
     color: white;
@@ -89,6 +75,66 @@ a :hover {
     height: 200px;
     display: flex;
     justify-content: center;
+    align-items: center; 
+}
+
+.section2 {
+    background-color:#F9FAF8;
+    text-align: center;
+    padding: 16px;
+}
+
+.info-header {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    margin: 16px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin: auto;
+    padding: 16px;
+}
+
+.info1, .info2, .info3, .info4 {
+    display: flex;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 8px;
+}
+
+.image {
+    border: 5px solid #3882F6;
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+}
+
+.subtext {
+    max-width: 150px
+}
+
+.section3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color:#E5E7EB;
+    padding: 150px 200px 150px 200px;
     
+}
+
+.quote {
+    text-align: center;
+    font-size: 36px;
+    color:#1F2937;
+    font-style: italic;
+}
+
+.author {
+    text-align: right;
 }
