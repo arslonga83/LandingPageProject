@@ -12,6 +12,10 @@ a {
     color: inherit;
 }
 
+a:hover {
+    color: grey;
+}
+
 .section1, .footer {
     background-color: #1F2937;
     padding: 56px;
@@ -58,7 +62,7 @@ a {
 }
 
 .hero-left {
-    max-width: 400px;
+    max-width: 600px;
 }
 
 .hero-right {
@@ -72,8 +76,8 @@ a {
 .image-placeholder {
     background-color: grey;
     color: white;
-    width: 400px;
-    height: 200px;
+    width: 600px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -178,5 +182,4 @@ h4 {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
